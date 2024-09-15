@@ -1,0 +1,67 @@
+/* Adicione estilos gerais para o conteúdo das seções */
+
+section {
+  padding: 40px;
+}
+
+#home {
+  background-color: #8885f7;
+}
+
+#products {
+  background-color: #170fe78b;
+}
+
+#about {
+  background-color: #170fe78b;
+}
+
+#contact {
+  background-color: #170fe78b;
+  display: block; /* Garantir que a seção de contato seja exibida quando `showContact` é true */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #16e3a63b;
+}
+
+/* src/App.css ou src/components/Contact.css */
+
+.contact-submit-button {
+  background-color: #007bff; /* Cor de fundo inicial */
+  color: #ffffff; /* Cor do texto */
+  border: none; /* Remover borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro */
+  font-size: 16px; /* Tamanho da fonte */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.contact-submit-button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.contact-submit-button:focus {
+  outline: none; /* Remover contorno padrão */
+}
+

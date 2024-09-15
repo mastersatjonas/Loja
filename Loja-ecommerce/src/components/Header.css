@@ -1,0 +1,35 @@
+header {
+    background: rgba(69, 81, 133, 0.57);
+    background: linear-gradient(90deg, rgba(69, 81, 133, 0.568) 27%, rgba(12, 13, 13, 0.486) 76%);
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 8px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
